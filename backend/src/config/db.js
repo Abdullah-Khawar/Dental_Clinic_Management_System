@@ -1,9 +1,11 @@
 import dns from "dns";
 import dotenv from "dotenv";
+import pg from "pg";
 import { Sequelize } from "sequelize";
 
 dotenv.config();
 
+// Prefer IPv4 so Supabase connections work on networks without IPv6.
 dns.setDefaultResultOrder("ipv4first");
 
 const useSsl =
@@ -13,6 +15,8 @@ const useSsl =
 
 const commonOptions = {
   dialect: "postgres",
+  // Required on Vercel/serverless so Sequelize does not look for optional peer deps.
+  dialectModule: pg,
   logging: false,
   dialectOptions: useSsl
     ? {
