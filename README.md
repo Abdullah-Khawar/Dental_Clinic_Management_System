@@ -6,10 +6,10 @@ Staff console to manage doctors and appointments.
 
 | Item | Link |
 | --- | --- |
-| GitHub (`develop`) | https://github.com/your-username/dental_system |
-| Frontend (Render) | https://your-frontend.onrender.com |
-| Backend (Render) | https://your-backend.onrender.com |
-| API health | https://your-backend.onrender.com/api/health |
+| GitHub (`develop`) | https://github.com/Abdullah-Khawar/Dental_Clinic_Management_System |
+| Frontend (Vercel) | https://dental-clinic-management-system-ebon.vercel.app |
+| Backend (Vercel) | https://dental-clinic-management-system-cg7.vercel.app |
+| API health | https://dental-clinic-management-system-cg7.vercel.app/api/health |
 | Project document (PDF) | https://drive.google.com/your-project-doc |
 | Loom walkthrough | https://www.loom.com/share/your-video-id |
 
